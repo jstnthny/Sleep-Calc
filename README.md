@@ -10,4 +10,4 @@ time to wake up by considering sleep cycles. According to studies it is better t
 
 
 
-![sleepCalc](https://user-images.githubusercontent.com/59781087/136248220-a42cb140-5d7a-421c-bf9e-264dbcd26969.PNG)
+![sleepCalc](https://user-images.githubusercontent.com/59781087/136248480-c12fd5fc-b48d-4741-bd1f-0e08fd707a83.PNG)
