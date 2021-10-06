@@ -164,4 +164,8 @@ footer {
     width: 100%;
     margin: 1em auto;
   }
+
+  select {
+    font-size: 0.9em;
+  }
 }

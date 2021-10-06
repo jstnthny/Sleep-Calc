@@ -48,18 +48,18 @@ function calculateSleep() {
     " added for time to fall asleep)" +
     "</h3><div class='sleep-cycles'><ul> <li> <p>Two Sleep Cycles: " +
     twoSleepCycles +
-    "</p><p> 3 Hours - Not Recommended</p> <span class='emoji'>&#129503;</span>" +
+    "</p><p> 3 Hours - Not Recommended</p> <span class='emoji' aria-hidden='true'>&#129503;</span>" +
     "</li>" +
     "<li> <p> Three Sleep Cycles: " +
     threeSleepCycles +
-    "</p><p> 4.5 Hours -  Not Recommended </p> <span class='emoji'>&#128564;</span> </li>" +
+    "</p><p> 4.5 Hours -  Not Recommended </p> <span class='emoji' aria-hidden='true'>&#128564;</span> </li>" +
     "<li><p> Four Sleep Cycles: " +
     fourSleepCycles +
-    "</p> <p> 6 Hours - Okay</p> <span class='emoji'>&#128524;</span> </li>" +
+    "</p> <p> 6 Hours - Okay</p> <span class='emoji' aria-hidden='true'>&#128524;</span> </li>" +
     "<li> <p> Five Sleep Cycles: " +
     fiveSleepCycles +
-    " </p> <p>7.5 Hours - Recommended</p> <span class='emoji'>&#128516; </span> </li>" +
+    " </p> <p>7.5 Hours - Recommended</p> <span class='emoji' aria-hidden='true'>&#128516; </span> </li>" +
     "<li> <p> Six Sleep Cycles: " +
     sixSleepCycles +
-    "</p> <p> 9 Hours - Recommended</p> <span class='emoji'>&#128515;</span> </li> </ul><div>";
+    "</p> <p> 9 Hours - Recommended</p> <span class='emoji' aria-hidden='true'>&#128515;</span> </li> </ul><div>";
 }
