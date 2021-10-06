@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: rgb(0, 8, 20);
+  background: radial-gradient(
+    circle,
+    rgba(0, 8, 20, 1) 0%,
+    rgba(0, 18, 51, 1) 100%
+  );
+}
+
+.app-container {
+  background: rgb(0, 8, 20);
+  background: radial-gradient(
+    circle,
+    rgba(0, 8, 20, 1) 0%,
+    rgba(0, 18, 51, 1) 100%
+  );
+  height: 100vh;
+}
+
+.sleep-calc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sleep-calc-container h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  margin: 0 0 0.1em 0;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.emoji-header-container {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.emoji-header {
+  text-align: center;
+  font-size: 4em;
+}
+
+/* Sleep Cycles styles */
+.sleep-cycles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sleepCycles {
+  color: white;
+}
+
+#sleepCycles h3 {
+  text-align: center;
+}
+
+#sleepCycles ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sleepCycles li {
+  margin: 1em 1em;
+  border: 1px solid white;
+  border-radius: 2em;
+  height: 250px;
+  text-align: center;
+  -webkit-box-shadow: 5px 6px 15px 1px rgba(115, 115, 115, 0.36);
+  box-shadow: 5px 6px 15px 1px rgba(115, 115, 115, 0.36);
+}
+
+#sleepCycles li p {
+  width: 90%;
+  margin: 1.2em auto;
+  text-align: center;
+}
+
+.emoji {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+/* Input Styles */
+
+.time-needed-container {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.time-needed-container input {
+  border: whitesmoke 1px solid;
+  border-radius: 1em;
+  padding: 1em 0.5em;
+  background-color: whitesmoke;
+}
+
+.time {
+  padding: 1em 0.5em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 830px) {
+  .emoji {
+    font-size: 2em;
+  }
+
+  .sleep-cycles {
+    flex-wrap: wrap;
+  }
+
+  #sleepCycles ul {
+    flex-wrap: wrap;
+  }
+
+  #sleepCycles li p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app-container {
+    height: 100vh;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  #sleepCycles ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #sleepCycles li {
+    width: 100%;
+  }
+}
