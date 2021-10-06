@@ -9,4 +9,5 @@ time to wake up by considering sleep cycles. According to studies it is better t
 - Users can set a additional time of how long it usually takes them to fall asleep, which then get added into the calculations of times to wake up at.
 
 
-![sleepCalc](https://user-images.githubusercontent.com/59781087/136247722-b93b3095-c459-4f99-9303-80d5ec8e4924.PNG)
+
+![sleepCalc](https://user-images.githubusercontent.com/59781087/136248220-a42cb140-5d7a-421c-bf9e-264dbcd26969.PNG)
