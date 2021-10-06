@@ -15,8 +15,11 @@ function timeMins(mins) {
   return a(hours) + ":" + a(minutes);
 }
 
-// Adds both times into a hh:mm format
+// Adds both times converts back in hh:mm format
 function addTime(time0, time1) {
+  // Converts hh:mm format to minutes
+  // Adds both numbers together
+  // Converts back into hh:mm format
   return timeMins(convertToMins(time0) + convertToMins(time1));
 }
 
